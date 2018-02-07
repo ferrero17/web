@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Contacto</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="contacte.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="validator.js"></script>
+</head>
+<body>
+<div id="general">
+<div id="capa1">
+<a href="index.html" target="-blank">Home</a>
+<a href="contacte.html" target="-blank">Contacto</a>
+<a href="references.html" target="-blank">Bibliografía</a>
+</div>
+<div id="capa2">
+<h1>PRAY FOR VEGETA</h1>
+<h2>Formulario de contacto:</h2>
+</div>
+<div id="capa3">
+<form action="formResult.html" method="get">
+<p class="contact"> Usa este formulario para contactar con nosotros, cualquier motivo es válid.¡Gracias!</p> 
+<table>
+<tr>
+<td><label for="nombre">Nombre:<br></label></td>
+<td><input type="text" name="nombre" id="nombre"></td>
+<td><label for="apellido">Apellido:</label></td>
+<td><input type="text" name="apellido" id="apellido"></td>
+</tr>
+<tr>
+<td><label for="edad">Edad:</label> </td>
+<td colspan="2"><input type="number" name="edad" id="edad"></td>
+<td rowspan="13"><input type="submit" value="Enviar"></td>
+</tr>
+<tr>
+<td><label for="mail">Email:</label></td>
+<td><input type="email" name=correo id="mail" placeholder="example@web.com"></td>
+</tr>
+<tr>
+<td colspan="3"><p>Selecciona tu género:</p></td>
+</tr>
+<tr>
+<td><label for="man">Hombre</label></td>
+<td colspan="2"><input type="radio" name="cicle" value="dam" id="man"></td>
+</tr>
+<tr>
+<td><label for="woman">Mujer</label></td>
+<td colspan="2"><input type="radio" name="cicle" value="asix" id="woman"></td>
+</tr>
+<tr>
+<td><label for="other">Otros</label></td>
+<td colspan="2"><input type="radio" name="cicle" value="altres" id="other" checked>
+</td>
+</tr>
+<tr>
+<td colspan="3"><p>Selecciona el idioma de la respuesta:</p></td>
+</tr>
+<tr>
+<td><label for="cat">Català</label></td>
+<td colspan="2"><input type="checkbox" name="idioma" id="cat" checked><br>
+</td>
+</tr>
+<tr>
+<td><label for="cas">Castellano</label></td>
+<td colspan="2"><input type="checkbox" name="idioma" id="cas"></td>
+</tr>
+<tr>
+<td><label for="ing">English</label></td>
+<td colspan="2"><input type="checkbox" name="idioma" id="ing"></td>
+<tr>
+<td><label for="prueba">Cuéntanos tu propuesta:</label></td>
+<td colspan="2"><textarea  id="prueba" name="comentario" rows="10" cols="50" placeholder="Quiero comentar..."></textarea></td>
+<tr>
+<td colspan="2"><p>Motivo del contacto:</p> </td>
+<td>
+<label for="prueba2"></label>
+<select id="prueba2">
+  <option value="sug">Sugerencia</option> 
+  <option value="quej">Queja</option>
+  <option value="otro" selected>Otras razones</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><label for="nose">Especifique cual</label></td>
+<td><input maxlength="100" id="nose"></td>
+</tr>
+</table>
+</form>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

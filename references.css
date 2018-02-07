@@ -1,0 +1,34 @@
+div#referencias {
+position:relative;
+float: left;
+  white-space:pre;
+color:yellow;
+}
+
+
+p {
+position: relative;
+top: 15px;
+  left: 290px;
+font-size:22px;
+text-align:center;
+
+}
+
+img.gifvegeta {
+
+position:relative;
+clear:both;
+margin:150px;
+padding: 180px; 
+
+}
+
+div#transformacion {
+
+position:relative;
+top:350px;
+left:0px;
+
+}
+
