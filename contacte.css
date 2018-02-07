@@ -1,0 +1,23 @@
+table, td, th {
+	font-size:30px;
+	color:yellow;
+	position: relative;
+	top: 30px;
+	left:60px;
+	
+}
+
+
+p.contact {
+
+position:relative;
+top:19px;
+left:35px;
+font-size:18px;
+float:left;
+color:yellow;
+}
+
+
+
+

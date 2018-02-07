@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bibliografía</title>
+<link rel="stylesheet" type="text/css" href="layout.css">
+<link rel="stylesheet" type="text/css" href="references.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="validator.js"></script>
+</head>
+<body>
+<div id="general">
+<div id="capa1">
+<a href="index.html" target="-blank">Home</a>
+<a href="contacte.html" target="-blank">Contacto</a>
+<a href="referencies.html" target="-blank">Bibliografía</a>
+</div>
+<div id="capa2">
+<h1>PRAY FOR VEGETA</h1>
+<h2>Bibliografía</h2>
+</div>
+<div id="capa3">
+<div id="referencias">
+<p>Para informarme sobre ciertos datos y cerciorarme de que toda mi información es correcta<br> he consultado diferentes webs con el fin de ser lo más preciso posible.<br>Ésta ha sido mi bibliografía básica para la web: </p>
+<ul>
+<li><a href="http://es.dragonball.wikia.com/wiki/Dragon_Ball_Wiki" target="-blank">Dragon Ball Wikia</a></li>
+<li><a href="http://www.oxigeno.com.pe/noticias/dragon-ball-cual-es-el-personaje-mas-odiado-por-akira-toriyama-noticia-1038532" target="-blank">Entrevista a Toriyama...</a></li>
+<li><a href="https://www.youtube.com/watch?v=wNMzzbnv5LU&t=6s" target="-blank">Link al vídeo</a></li>
+</ul>
+</div>
+<div id="transformacion">
+<script>
+function light(sw) {
+    var pic;
+    if (sw == 0) {
+        pic = "nosaiyan.jpeg"
+    } else {
+        pic = "sisaiyan.jpg"
+    }
+    document.getElementById('gifvegeta').src = pic;
+}
+</script>
+<img id="gifvegeta" src="nosaiyan.jpeg" alt="vegeta" width="300" height="450">
+<p>
+<button type="button" onclick="light(0)">Caaalma!</button>
+<button type="button" onclick="light(1)">Transforma!</button>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
